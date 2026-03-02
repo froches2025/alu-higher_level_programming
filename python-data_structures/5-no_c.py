@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def no_c(my_string):
     # initialize an empty string new_string that will hold the modified version
     new_string = ""

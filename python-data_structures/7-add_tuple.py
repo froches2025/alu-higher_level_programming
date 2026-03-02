@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def add_tuple(tuple_a=(), tuple_b=()):
     length1 = len(tuple_a)
     length2 = len(tuple_b)
