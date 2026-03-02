@@ -4,6 +4,7 @@
 # import dis
 # print(dis.dis(magic_calculation))
 
+
 def magic_calculation(a, b, c):
     if a < b:
         return c
@@ -11,4 +12,3 @@ def magic_calculation(a, b, c):
         return a + b
     else:
         return (a * b) - c
-
