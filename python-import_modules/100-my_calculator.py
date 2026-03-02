@@ -16,15 +16,12 @@ if __name__ == "__main__":
         sys.exit(1)
 
     if operator == '+':
-        result = a + b
-    elif operator == '*':
-        result = a * b
+        result = add(a, b)
     elif operator == '-':
-        result = a - b
-    else:
-         if b == 0:
-            print("Error: Division by zero is not allowed.")
-            sys.exit(1)
-            result = a / b
+        result = sub(a, b)
+    elif operator == '*':
+        result = mul(a, b)
+    elif operator == '/':
+        result = div(a, b)
 
-print("{} {} {} = {}".format(a, operator, b, result))
+    print("{} {} {} = {}".format(a, operator, b, result))
