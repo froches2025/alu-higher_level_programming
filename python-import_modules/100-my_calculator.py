@@ -25,4 +25,3 @@ if __name__ == "__main__":
         result = div(a, b)
 
     print("{} {} {} = {}".format(a, operator, b, result))
-    
